@@ -1,6 +1,7 @@
 import CartProducts from "../components/CartProducts";
 import Payment from "../components/Payment";
 
+
 const Cart = ({SetCart})=>{
    
     return(
@@ -9,6 +10,8 @@ const Cart = ({SetCart})=>{
         <div className="cart-container">
             <CartProducts/>
             <Payment/>
+
+     
 
 
         </div>
